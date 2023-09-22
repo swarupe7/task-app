@@ -86,7 +86,11 @@ Contributions to the Task App backend are welcome! To contribute, follow these s
 ## License
 This project is licensed under the MIT License.
 
+##pictures
+Operations of postgresql
 ![PostgreSQL](./postgresql.png)
+Task-endpoints
 ![Tasks](./tasks.png)
+User-endpoints
 ![Users](./users.png)
 
