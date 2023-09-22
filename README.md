@@ -25,11 +25,13 @@ Before setting up the backend, make sure you have the following prerequisites in
 
 ## Project Structure
 The project structure is organized as follows:
+```
 task-app/
 ├── server.js # Main application file
 ├── database.js # Database connection and queries
 ├── package.json # Node.js dependencies and scripts
 └── README.md # Project documentation (this file)
+```
 
 
 ## Getting Started
