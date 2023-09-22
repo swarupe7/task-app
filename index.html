@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task App Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .highlight {
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007BFF;
+            color: #fff;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Task App Overview</h1>
+    </header>
+    <div class="container">
+        <h2>About the Task App</h2>
+        <p>The Task App is a web application built using <span class="highlight">Node.js</span>, <span class="highlight">Express</span>, and <span class="highlight">PostgreSQL</span>. It allows users to manage tasks effectively.</p>
+
+        <h2>Database Schema</h2>
+        <p>The database consists of two main tables:</p>
+        <ul>
+            <li><span class="highlight">Tasks Table:</span></li>
+            <ul>
+                <li><span class="highlight">taskid:</span> Primary key, uniquely identifies each task.</li>
+                <li><span class="highlight">description:</span> Describes the task.</li>
+            </ul>
+            <li><span class="highlight">Users Table:</span></li>
+            <ul>
+                <li><span class="highlight">uid:</span> Primary key, uniquely identifies each user.</li>
+                <li><span class="highlight">username:</span> User's name.</li>
+                <li><span class="highlight">taskid:</span> Foreign key, related to the task the user is assigned to.</li>
+                <li><span class="highlight">user_status:</span> Represents the status of the user's task.</li>
+            </ul>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2023 Task App. All rights reserved.
+    </footer>
+</body>
+</html>
