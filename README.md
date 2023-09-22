@@ -25,11 +25,11 @@ Before setting up the backend, make sure you have the following prerequisites in
 
 ## Project Structure
 The project structure is organized as follows:
--task-app-backend/
--├── server.js # Main application file
--├── database.js # Database connection and queries
--├── package.json # Node.js dependencies and scripts
--└── README.md # Project documentation (this file)
+task-app/
+├── server.js # Main application file
+├── database.js # Database connection and queries
+├── package.json # Node.js dependencies and scripts
+└── README.md # Project documentation (this file)
 
 
 ## Getting Started
@@ -86,7 +86,7 @@ Contributions to the Task App backend are welcome! To contribute, follow these s
 ## License
 This project is licensed under the MIT License.
 
-##pictures
+## Pictures
 Operations of postgresql
 ![PostgreSQL](./postgresql.png)
 Task-endpoints
